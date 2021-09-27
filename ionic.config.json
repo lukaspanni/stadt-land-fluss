@@ -1,5 +1,7 @@
 {
   "name": "stadt-land-fluss",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
