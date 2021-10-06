@@ -1,15 +1,18 @@
 {
   "name": "stadt-land-fluss",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Lukas Panni",
+  "homepage": "https://lukaspanni.de/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "android": "ionic cordova run android",
+    "android-build-release": "ionic cordova build android --release --configuration production",
+    "android-live": "ionic cordova run android --livereload --consolelogs"
   },
   "private": true,
   "dependencies": {
