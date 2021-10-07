@@ -8,8 +8,9 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
+    "test-ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
+    "lint": "ng lint --fix",
+    "lint-ci": "ng lint",    "e2e": "ng e2e",
     "android": "ionic cordova run android",
     "android-build-release": "ionic cordova build android --release --configuration production",
     "android-live": "ionic cordova run android --livereload --consolelogs"
